@@ -1,84 +1,14 @@
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Grinding Transfer | 修磨转运车间</title>
-  <style>
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0b1426;
-      color: white;
-    }
-    header {
-      background: #17243b;
-      padding: 24px;
-      border-bottom: 3px solid #9b263b;
-    }
-    h1 { margin: 0 0 8px; font-size: 26px; }
-    header p { margin: 0; color: #b9c6d9; }
-    main { max-width: 1100px; margin: auto; padding: 30px 20px; }
-    .welcome { margin-bottom: 30px; }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 18px;
-    }
-    .card {
-      background: #1c2b43;
-      padding: 24px;
-      border: 1px solid #40516a;
-      border-radius: 14px;
-    }
-    .card h2 { font-size: 19px; margin: 0 0 10px; }
-    .card p { color: #c0ccdb; margin: 0; }
-    footer {
-      text-align: center;
-      padding: 35px;
-      color: #9daec5;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>GRINDING TRANSFER</h1>
-    <p>Sistem Manajemen Divisi | 修磨转运车间管理系统</p>
-  </header>
-  <main>
-    <section class="welcome">
-      <h2>Dashboard Divisi</h2>
-      <p>Selamat datang di Sistem Manajemen Grinding Transfer.</p>
-    </section>
-    <section class="grid">
-      <div class="card">
-        <h2>Data Karyawan</h2>
-        <p>员工信息管理</p>
-      </div>
-      <div class="card">
-        <h2>Absensi dan Shift</h2>
-        <p>考勤与班次管理</p>
-      </div>
-      <div class="card">
-        <h2>KPI dan Evaluasi</h2>
-        <p>绩效考核管理</p>
-      </div>
-      <div class="card">
-        <h2>Keselamatan Kerja</h2>
-        <p>安全生产管理</p>
-      </div>
-      <div class="card">
-        <h2>Matriks Skill</h2>
-        <p>员工技能矩阵</p>
-      </div>
-      <div class="card">
-        <h2>Laporan Divisi</h2>
-        <p>车间工作报告</p>
-      </div>
-    </section>
-  </main>
-  <footer>Grinding Transfer | 修磨转运车间</footer>
-</body>
-</html>
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grinding Transfer | 修磨转运车间</title><style>
+:root{color-scheme:dark;--bg:#080e1b;--panel:#111a2b;--line:#25324a;--muted:#94a6c3;--blue:#388bff;--red:#9c304c}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#e9f1ff;font:14px system-ui,Segoe UI,Arial}button,input,select,textarea{font:inherit}button{cursor:pointer}.app{display:flex;min-height:100vh}.side{width:238px;background:#101827;border-right:1px solid var(--line);padding:23px 14px;position:sticky;top:0;height:100vh}.brand{display:flex;gap:10px;align-items:center;padding:4px 8px 23px;border-bottom:1px solid var(--line);font-weight:800;letter-spacing:.5px}.logo{background:linear-gradient(135deg,#46a6ff,#1e428a);padding:10px;border-radius:10px}.sub{font-size:11px;color:var(--muted);font-weight:400}.nav{display:grid;gap:5px;margin-top:20px}.nav button{background:none;color:#aabbd3;border:0;text-align:left;padding:12px;border-radius:10px}.nav button:hover,.nav button.active{background:#193560;color:white}.main{flex:1;min-width:0;padding:28px 32px;max-width:1600px;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:25px}.top h1{margin:0;font-size:23px}.top p{margin:5px 0;color:var(--muted)}.pill{background:#152b48;border:1px solid #315784;color:#b8d9ff;padding:8px 12px;border-radius:20px}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}.card,.panel{background:linear-gradient(155deg,#121e32,#0e1625);border:1px solid var(--line);border-radius:16px;padding:20px}.card{min-height:137px}.card .value{font-size:29px;margin:14px 0 4px;font-weight:650}.muted{color:var(--muted)}.small{font-size:12px}.layout{display:grid;grid-template-columns:1.65fr 1fr;gap:16px;margin-top:16px}.panel h2{font-size:16px;margin:0 0 17px}.bars{display:flex;align-items:end;gap:18px;height:220px;border-bottom:1px solid #32415a;padding:12px 10px 0}.barwrap{flex:1;text-align:center;min-width:0}.bar{background:linear-gradient(#49a4ff,#304fcb);border-radius:7px 7px 0 0;min-height:4px}.barwrap span{display:block;font-size:11px;color:var(--muted);padding:9px 0}.tag{display:inline-block;padding:5px 9px;border-radius:20px;background:#163c37;color:#65e4b3;font-size:11px}.rowline{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.rowline:last-child{border:0}.toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:15px}input,select,textarea{background:#0c1423;border:1px solid #32435d;border-radius:9px;color:white;padding:11px;min-width:0}input{flex:1}.btn{border:1px solid #3a68a4;background:#194779;color:white;border-radius:9px;padding:10px 15px}.btn:hover{background:#2362a7}.btn.secondary{background:#17243a}.tablewrap{overflow:auto}table{border-collapse:collapse;width:100%;min-width:630px}th,td{text-align:left;border-bottom:1px solid var(--line);padding:13px 10px}th{color:#9eb6d6;font-size:12px}td{color:#dce8fa}.notice{background:#1a2537;border-left:3px solid #a63e5c;padding:12px 14px;border-radius:6px;color:#d8e3f3;margin:15px 0}.empty{text-align:center;padding:40px 15px;color:var(--muted)}.hide{display:none!important}.formgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.formgrid input,.formgrid select{width:100%}.formgrid label{display:grid;gap:6px;color:var(--muted)}dialog{border:1px solid #385174;border-radius:15px;background:#121e32;color:white;max-width:580px;width:calc(100% - 28px)}dialog::backdrop{background:#000a}dialog h2{margin-top:0}.dialogactions{display:flex;justify-content:flex-end;gap:10px;margin-top:20px}.section{display:none}.section.active{display:block}.metric{font-size:22px;font-weight:700;color:#7cb7ff}footer{color:#6e809a;text-align:center;padding:28px 0;font-size:11px}@media(max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)}.layout{grid-template-columns:1fr}.side{width:190px}.main{padding:22px}}@media(max-width:650px){.app{display:block}.side{position:relative;width:100%;height:auto;padding:12px}.brand{padding-bottom:12px}.nav{display:flex;overflow-x:auto;margin-top:10px}.nav button{white-space:nowrap}.main{padding:16px}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:13px}.card .value{font-size:24px}.formgrid{grid-template-columns:1fr}}
+</style></head><body><div class="app"><aside class="side"><div class="brand"><span class="logo">▥</span><div>GRINDING TRANSFER<div class="sub">修磨转运车间</div></div></div><nav class="nav" id="nav"><button class="active" data-page="overview">◫ &nbsp; Dashboard / 总览</button><button data-page="employees">♙ &nbsp; Karyawan / 员工</button><button data-page="attendance">◷ &nbsp; Absensi / 考勤</button><button data-page="kpi">◈ &nbsp; KPI / 绩效</button><button data-page="safety">⚠ &nbsp; K3 / 安全</button><button data-page="skills">▦ &nbsp; Skill / 技能</button><button data-page="reports">▤ &nbsp; Laporan / 报告</button></nav></aside><main class="main"><div class="top"><div><h1 id="heading">Dashboard Divisi</h1><p id="subtitle">Sistem Manajemen Divisi / 车间管理系统</p></div><span class="pill">● Demo lokal · 本地演示</span></div>
+<section class="section active" id="overview"><div class="notice">Mode demo: angka pada dashboard dihitung dari data contoh yang kamu masukkan di browser ini. Belum terhubung ke database perusahaan. / 演示模式：数据仅保存在本机浏览器。</div><div class="cards"><div class="card"><div class="muted">Total Karyawan / 员工总数</div><div class="value" id="m-employees">0</div><span class="tag">Data lokal</span></div><div class="card"><div class="muted">Absensi Tercatat / 考勤记录</div><div class="value" id="m-attendance">0</div><span class="tag">Data lokal</span></div><div class="card"><div class="muted">Temuan K3 / 安全隐患</div><div class="value" id="m-safety">0</div><span class="tag">Data lokal</span></div><div class="card"><div class="muted">Penilaian Skill / 技能评价</div><div class="value" id="m-skills">0</div><span class="tag">Data lokal</span></div></div><div class="layout"><div class="panel"><h2>Distribusi Karyawan per Grup / 各班组人数</h2><div class="bars" id="group-bars"></div></div><div class="panel"><h2>Ringkasan Operasional / 运行概况</h2><div id="summary"></div></div></div><div class="layout"><div class="panel"><h2>Catatan Terbaru / 最新记录</h2><div id="latest"></div></div><div class="panel"><h2>Penggunaan Sistem / 系统使用</h2><p class="muted">Klik menu di sebelah kiri. Tambahkan data percobaan untuk menguji pencarian, filter, grafik, dan laporan. Jangan masukkan data pribadi atau rahasia perusahaan ke situs publik.</p><button class="btn secondary" id="clear-demo">Hapus semua data demo</button></div></div></section>
+<section class="section" id="employees"><div class="panel"><h2>Manajemen Karyawan / 员工管理</h2><div class="toolbar"><input id="employee-search" placeholder="Cari nama, ID, lokasi / 搜索"><select id="employee-filter"><option value="">Semua Grup</option><option>A</option><option>B</option><option>C</option><option>Reguler</option><option>Long Day Shift</option></select><button class="btn" data-add="employees">+ Tambah Demo</button></div><div class="tablewrap"><table><thead><tr><th>ID</th><th>Nama / 姓名</th><th>Grup / 班组</th><th>Lokasi / 区域</th><th>Jabatan / 职务</th><th>Aksi</th></tr></thead><tbody id="employees-body"></tbody></table></div></div></section>
+<section class="section" id="attendance"><div class="panel"><h2>Absensi dan Shift / 考勤与班次</h2><div class="toolbar"><input id="attendance-search" placeholder="Cari nama / 搜索"><button class="btn" data-add="attendance">+ Tambah Catatan</button></div><div class="tablewrap"><table><thead><tr><th>Tanggal</th><th>Nama</th><th>Grup</th><th>Status</th><th>Aksi</th></tr></thead><tbody id="attendance-body"></tbody></table></div></div></section>
+<section class="section" id="kpi"><div class="panel"><h2>KPI dan Evaluasi / 绩效考核</h2><p class="muted">Catat hasil KPI demo. Nilai tidak dihitung otomatis dari aturan perusahaan.</p><div class="toolbar"><button class="btn" data-add="kpi">+ Tambah Penilaian</button></div><div class="tablewrap"><table><thead><tr><th>Periode</th><th>Nama</th><th>Nilai</th><th>Keterangan</th><th>Aksi</th></tr></thead><tbody id="kpi-body"></tbody></table></div></div></section>
+<section class="section" id="safety"><div class="panel"><h2>Temuan Keselamatan Kerja / 安全隐患管理</h2><div class="toolbar"><button class="btn" data-add="safety">+ Tambah Temuan</button></div><div class="tablewrap"><table><thead><tr><th>Tanggal</th><th>Lokasi</th><th>Temuan</th><th>Saran Perbaikan</th><th>Status</th><th>Aksi</th></tr></thead><tbody id="safety-body"></tbody></table></div></div></section>
+<section class="section" id="skills"><div class="panel"><h2>Matriks Skill / 员工技能矩阵</h2><div class="toolbar"><button class="btn" data-add="skills">+ Tambah Penilaian</button></div><div class="tablewrap"><table><thead><tr><th>Nama</th><th>Kompetensi</th><th>Level</th><th>Tanggal</th><th>Aksi</th></tr></thead><tbody id="skills-body"></tbody></table></div></div></section>
+<section class="section" id="reports"><div class="panel"><h2>Laporan Divisi / 车间工作报告</h2><p class="muted">Ringkasan otomatis berdasarkan catatan demo yang tersimpan di browser ini.</p><div id="report-output"></div><div class="toolbar"><button class="btn" id="export-csv">Ekspor CSV Karyawan</button><button class="btn secondary" id="print-report">Cetak Laporan</button></div></div></section><footer>GRINDING TRANSFER · 修磨转运车间 · Prototype v1 · Data demo tersimpan lokal</footer></main></div>
+<dialog id="editor"><h2 id="dialog-title">Tambah Data</h2><form id="entry-form"><div class="formgrid" id="fields"></div><div class="dialogactions"><button type="button" class="btn secondary" id="cancel">Batal</button><button class="btn" type="submit">Simpan</button></div></form></dialog>
+<script>
+'use strict';const types={employees:[['id','ID Karyawan','text'],['name','Nama / 姓名','text'],['group','Grup / 班组','select','A|B|C|Reguler|Long Day Shift'],['location','Lokasi / 区域','text'],['role','Jabatan / 职务','text']],attendance:[['date','Tanggal','date'],['name','Nama','text'],['group','Grup','select','A|B|C|Reguler|Long Day Shift'],['status','Status','select','Hadir|Off|Izin|Sakit|Cuti']],kpi:[['period','Periode (YYYY-MM)','month'],['name','Nama','text'],['score','Nilai KPI','number'],['note','Keterangan','text']],safety:[['date','Tanggal','date'],['location','Lokasi','text'],['finding','Temuan','text'],['action','Saran Perbaikan','text'],['status','Status','select','Belum diperbaiki|Dalam proses|Selesai']],skills:[['name','Nama','text'],['competency','Kompetensi','text'],['level','Level','select','L1|L2|L3|Belum dinilai'],['date','Tanggal','date']]};const labels={overview:['Dashboard Divisi','Ringkasan Operasional / 运行总览'],employees:['Data Karyawan','员工信息管理'],attendance:['Absensi dan Shift','考勤与班次管理'],kpi:['KPI dan Evaluasi','绩效考核管理'],safety:['Keselamatan Kerja','安全隐患管理'],skills:['Matriks Skill','员工技能矩阵'],reports:['Laporan Divisi','车间工作报告']};const KEY='grinding-transfer-demo-v1';let db;try{db=JSON.parse(localStorage.getItem(KEY)||'{}')}catch{db={}}for(const type of Object.keys(types))if(!Array.isArray(db[type]))db[type]=[];let currentType='employees';const $=id=>document.getElementById(id);const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(db))}catch{alert('Penyimpanan browser penuh atau tidak tersedia.')}};function switchPage(p){document.querySelectorAll('.section').forEach(x=>x.classList.toggle('active',x.id===p));document.querySelectorAll('#nav button').forEach(x=>x.classList.toggle('active',x.dataset.page===p));$('heading').textContent=labels[p][0];$('subtitle').textContent=labels[p][1];render();}document.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>switchPage(b.dataset.page));document.querySelectorAll('[data-add]').forEach(b=>b.onclick=()=>openEditor(b.dataset.add));function openEditor(type){currentType=type;$('dialog-title').textContent='Tambah Catatan · '+labels[type][0];$('fields').innerHTML='';for(const [key,label,kind,opts] of types[type]){const wrap=document.createElement('label');wrap.textContent=label;let el;if(kind==='select'){el=document.createElement('select');for(const value of opts.split('|')){const op=document.createElement('option');op.value=value;op.textContent=value;el.append(op)}}else{el=document.createElement('input');el.type=kind;if(kind==='date')el.value=new Date().toISOString().slice(0,10);if(kind==='month')el.value=new Date().toISOString().slice(0,7)}el.name=key;el.required=true;wrap.append(el);$('fields').append(wrap)}$('editor').showModal();}$('cancel').onclick=()=>$('editor').close();$('entry-form').onsubmit=e=>{e.preventDefault();const record={uid:crypto.randomUUID?crypto.randomUUID():String(Date.now())};for(const [key] of types[currentType])record[key]=$('entry-form').elements.namedItem(key).value.trim();db[currentType].push(record);save();$('editor').close();render()};document.querySelectorAll('[id$="-search"],#employee-filter').forEach(el=>el.addEventListener('input',render));function renderTable(type){const body=$(type+'-body');const q=($(type+'-search')?.value||'').toLowerCase();const filter=type==='employees'?$('employee-filter').value:'';const arr=db[type].filter(r=>(!q||Object.values(r).some(v=>String(v).toLowerCase().includes(q)))&&(!filter||r.group===filter));body.innerHTML=arr.length?arr.map(r=>'<tr>'+types[type].map(([k])=>'<td>'+esc(r[k])+'</td>').join('')+'<td><button class="btn secondary" data-delete="'+esc(type)+'" data-id="'+esc(r.uid)+'">Hapus</button></td></tr>').join(''):'<tr><td colspan="'+(types[type].length+1)+'" class="empty">Belum ada data demo / 暂无数据</td></tr>';body.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>{if(confirm('Hapus catatan ini?')){db[type]=db[type].filter(r=>r.uid!==b.dataset.id);save();render()}})}function render(){for(const type of Object.keys(types))renderTable(type);$('m-employees').textContent=db.employees.length;$('m-attendance').textContent=db.attendance.length;$('m-safety').textContent=db.safety.length;$('m-skills').textContent=db.skills.length;const groups=['A','B','C','Reguler','Long Day Shift'];const counts=groups.map(g=>db.employees.filter(r=>r.group===g).length),max=Math.max(1,...counts);$('group-bars').innerHTML=groups.map((g,i)=>'<div class="barwrap"><div class="metric">'+counts[i]+'</div><div class="bar" style="height:'+(counts[i]/max*150)+'px"></div><span>'+esc(g)+'</span></div>').join('');$('summary').innerHTML=[['Karyawan',db.employees.length],['Absensi',db.attendance.length],['Penilaian KPI',db.kpi.length],['Temuan K3',db.safety.length],['Penilaian Skill',db.skills.length]].map(([n,v])=>'<div class="rowline"><span class="muted">'+n+'</span><b>'+v+'</b></div>').join('');const all=Object.keys(types).flatMap(t=>db[t].map(r=>({t,r})));$('latest').innerHTML=all.length?all.slice(-5).reverse().map(({t,r})=>'<div class="rowline"><span>'+esc(labels[t][0])+'</span><span class="muted">'+esc(r.name||r.location||r.finding||r.date||'Catatan')+'</span></div>').join(''):'<div class="empty">Belum ada catatan</div>';$('report-output').innerHTML='<div class="cards">'+[['Karyawan',db.employees.length],['Absensi',db.attendance.length],['KPI',db.kpi.length],['Temuan K3',db.safety.length],['Skill',db.skills.length]].map(([name,n])=>'<div class="card"><div class="muted">'+name+'</div><div class="value">'+n+'</div></div>').join('')+'</div><p class="notice">Ringkasan hanya mencakup data demo lokal. Tidak mewakili laporan resmi Divisi.</p>'}function csvCell(s){return '"'+String(s??'').replace(/^[=+@\-\t\r]/,'\'$&').replace(/"/g,'""')+'"'}$('export-csv').onclick=()=>{const keys=types.employees.map(x=>x[0]);const lines=[keys.map(csvCell).join(','),...db.employees.map(r=>keys.map(k=>csvCell(r[k])).join(','))];const blob=new Blob(['\ufeff'+lines.join('\r\n')],{type:'text/csv;charset=utf-8'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='grinding-transfer-karyawan-demo.csv';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};$('print-report').onclick=()=>window.print();$('clear-demo').onclick=()=>{if(confirm('Hapus SEMUA data demo yang tersimpan pada browser ini?')){for(const t of Object.keys(types))db[t]=[];save();render()}};render();
+</script></body></html>
